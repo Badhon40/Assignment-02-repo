@@ -52,6 +52,28 @@
     .game-varients h1{
         font-size: 30px;
     }
+    .install{
+        flex-direction: column;
+        width: auto;
+    }
+    .rider{
+        width:auto;
+    }
+    .proper{
+        width:auto;
+        text-align:center;
+        align-items: center;
+    }
+    .horse{
+        width:100%;
+        padding-right: 40px;
+    }
+    .cat{
+        position: relative;
+        width: 40%;
+        bottom: 150px;
+        left: 40px;
+    }
 }
 
 

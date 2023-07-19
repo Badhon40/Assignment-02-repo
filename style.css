@@ -233,3 +233,52 @@
 .class-info{
     padding: 10px 0px;
 }
+/*4th page*/
+.install{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 1000px;
+    align-items: center;
+    border: 2px solid blue;
+}
+.rider{
+    width: 60%;
+}
+.horse{
+    width: 60%;
+    padding:20px 0px 0px 100px ;
+   
+}
+.proper{
+    width: 40%;
+}
+.proper h1{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+}
+.proper span{
+    color: #F948B2;
+}
+.proper p{
+    color: #807891;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+
+.cat{
+    position: relative;
+    width: 20%;
+    bottom: -40px;
+    right: 300px;
+}
