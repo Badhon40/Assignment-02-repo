@@ -27,9 +27,20 @@
 .logo-container span{
     color: #FF42A5;
 }
+.follow-logo .fa-brands{
+    font-size: 30px;
+}
 .logo-container{
     width: 50%;
     display: flex;
+}
+.follow-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
 }
 .menu-bar a{
     text-decoration: none;
@@ -329,7 +340,7 @@
 .eco-friend{
     width: 1000px;
     align-items: center;
-    margin: 40px auto;
+    margin: 40px auto; 
     display: flex;
     background: linear-gradient(90deg, #e956a2 0%, #c64688 100%);
 }
@@ -429,7 +440,7 @@ footer{
 .terms{
     display: flex;
     justify-content: space-around;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 .terms li{
     list-style: none;
@@ -448,6 +459,11 @@ footer{
     font-size: 10px;
     font-style: normal;
     font-weight: 500;
-    padding-top: 40px;
+    padding-top: 10px;
     
+}
+.online-logo{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
 }

@@ -95,6 +95,7 @@
     }
     footer{
         width:auto;
+        height: 400px;
     }
     .foot{
         width:auto;
@@ -117,6 +118,13 @@
         grid-template-columns: repeat(2,2fr);
         width: 250px;
         margin: 0px auto;
+    }
+    .online-logo .fa-brands{
+        font-size: 40px;
+        
+    }
+    .online-logo{
+        gap: 2px;
     }
 }
 
