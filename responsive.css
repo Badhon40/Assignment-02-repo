@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .menu-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu-bar{
+        flex-direction: column;
+    }
+    .menu-bar a{
+        margin-top: 20px;
+    }
+    .menu-header{
+        box-shadow: 0;
+        background-color: transparent;
+    }
+}
