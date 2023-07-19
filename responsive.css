@@ -13,4 +13,88 @@
         box-shadow: 0;
         background-color: transparent;
     }
+    .banner{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-top: 200px;
+        width: auto;
+
+    }
+    .banner-discription{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .banner-img2{
+        width: 100%;
+    }
+    .gamer-theme{
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+    .group-img2{
+        width: 100%;
+    }
+    .instraction{
+        width: 100%;
+        text-align: center;
+    }
+    .option{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .game-varients{
+        margin-top: 150px;
+        width: auto;
+    }
+    .game-varients h1{
+        font-size: 30px;
+    }
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .menu-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .logo-container{
+        text-align: center;
+    }
+    .menu-bar{
+        width: 100%;
+        justify-content:space-evenly;
+        padding-top: 10px;
+    }
+    .banner{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .gamer-theme{
+        flex-direction: column;
+        margin: 40px auto;
+        text-align: center;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .instraction{
+        text-align: center;
+    }
+    .option{
+        width: auto;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .game-varients{
+        margin-top: 300px;
+    }
+    .game-varients h1{
+        font-size: 30px;
+    }
 }

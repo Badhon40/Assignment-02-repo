@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Work+Sans:wght@600;900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -51,4 +52,184 @@
     
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+/*banner section*/
+.banner{
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    
+}
+.banner-discription{
+    width: 50%;
+}
+.banner-discription h2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.banner-discription h1{
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn1-banner{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: 0px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-image: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.btn2-banner{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: 0px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4EC5F7;;
+}
+.banner-image{
+    width: 50%;
+}
+.image1{
+    width: 100%;
+}
+/*second page*/
+.gamer-theme{
+    width: 1000px;
+    height: 60vh;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid green;
+}
+.banner-img2{
+    width: 50%;
+}
+
+.group-img2{
+    width: 100%;
+    height: 100%;
+}
+.instraction{
+    width: 50%;
+    text-align: end;
+}
+.instraction h3{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.instraction p{
+    color: #6b6576;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+.btn-more{
+    border-radius: 48px;
+   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+   color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: 0px;
+    margin-top: 15px;
+}
+.instraction h6{
+    color: #7b738b;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+}
+.instraction h5{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+/*game play*/
+.game-varients{
+    width: 1000px;
+    margin: 20px auto;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.choice img{
+    width: 220px;
+    height: 250px;
+}
+.game-varients h1{
+    color: #0B0223;
+    text-align:center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.none{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-varients p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+.class-info{
+    padding: 10px 0px;
 }
