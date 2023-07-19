@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Work+Sans:wght@600;900&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -59,7 +60,7 @@
     margin: 10px auto;
     display: flex;
     align-items: center;
-    border: 2px solid red;
+    
     
 }
 .banner-discription{
@@ -127,7 +128,7 @@
     margin: 10px auto;
     display: flex;
     align-items: center;
-    border: 2px solid green;
+    
 }
 .banner-img2{
     width: 50%;
@@ -200,7 +201,32 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+
     
+}
+.choice{
+    position: relative;
+}
+.choice:hover .overlay{
+     visibility: visible;
+     cursor: pointer;
+     border-radius: 10px;
+     border: 4px solid #F948B2;
+}
+.overlay{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 220px;
+    background: gray;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    visibility: hidden;
 }
 .choice img{
     width: 220px;
@@ -240,7 +266,7 @@
     margin: 20px auto;
     width: 1000px;
     align-items: center;
-    border: 2px solid blue;
+    
 }
 .rider{
     width: 60%;
@@ -274,11 +300,155 @@
     font-weight: 400;
     line-height: 20px; /* 166.667% */
 }
-
-
 .cat{
     position: relative;
     width: 20%;
     bottom: -40px;
     right: 300px;
+}
+.thermo{
+    width: 80%;
+    padding-left: 40px;
+}
+.thermo h1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0px ;
+}
+.thermo p{
+    color: #f2e6e6;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 166.667% */
+}
+.eco-friend{
+    width: 1000px;
+    align-items: center;
+    margin: 40px auto;
+    border: 2px solid black;
+    display: flex;
+    background: linear-gradient(90deg, #e956a2 0%, #c64688 100%);
+}
+.section2 li{
+    list-style: none;
+    color: rgb(227, 224, 224);
+    font-size: 12px;
+}
+.section1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.img-container{
+    width: 50%;
+}
+.group-pic{
+    width:100%;
+    display: flex;
+    justify-content: end;
+}
+.pp{
+ text-align: end;
+}
+.btn-position{
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgb(199, 101, 133);
+    background: #FFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 0px;
+    margin-top: 20px;
+}
+/*game zone*/
+.gamess{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 10px 10px;
+}
+.gamess:hover{
+    border: 2px solid #e956a2 ;
+    border-radius: 30px;
+    color: #e956a2;
+}
+
+.gamess img{
+    width: 40px;
+}
+.games-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+/*footer*/
+.fa-brands{
+    font-size: 60px;
+}
+footer{
+    background: #0B0223;
+   height: 60vh;
+    
+}
+.foot{
+    width: 600px;
+    margin: 20px auto;
+}
+.logo-container1{
+    display: flex;
+   justify-content: center;
+   padding-top: 40px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #FFF;
+
+}
+.logo-container1 span{
+    color: #e956a2;
+}
+.supports{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+
+}
+.supports h4{
+    color: #c0bbbb;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.terms{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.terms li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.copy-right{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 40px;
+    
 }

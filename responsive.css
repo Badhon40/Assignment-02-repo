@@ -40,6 +40,9 @@
         width: 100%;
         text-align: center;
     }
+    .instraction h5{
+        font-size: 20px;
+    }
     .option{
         flex-direction: column;
         text-align: center;
@@ -48,6 +51,7 @@
     .game-varients{
         margin-top: 150px;
         width: auto;
+        padding-top: 100px;
     }
     .game-varients h1{
         font-size: 30px;
@@ -73,6 +77,46 @@
         width: 40%;
         bottom: 150px;
         left: 40px;
+    }
+    .eco-friend{
+        flex-direction: column;
+        width: auto;
+    }
+    .gamess{
+        padding: 10px 15px;
+    }
+    .games-list{
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gamess p{
+        font-size: 12px;
+    }
+    footer{
+        width:auto;
+    }
+    .foot{
+        width:auto;
+    }
+    .supports{
+            display: grid;
+            grid-template-columns: repeat(3,3fr);
+           width: 300px;
+           margin: 0px auto;
+
+    }
+    .supports h4{
+        padding-left: 25px;
+    }
+    .terms li{
+        padding-top: 10px;
+    }
+    .terms{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        width: 250px;
+        margin: 0px auto;
     }
 }
 
