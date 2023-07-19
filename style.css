@@ -330,7 +330,6 @@
     width: 1000px;
     align-items: center;
     margin: 40px auto;
-    border: 2px solid black;
     display: flex;
     background: linear-gradient(90deg, #e956a2 0%, #c64688 100%);
 }
