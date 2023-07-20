@@ -25,6 +25,10 @@
         text-align: center;
         margin-top: 20px;
     }
+    .banner-info{
+        justify-content: center;
+       
+    }
     .banner-img2{
         width: 100%;
     }

@@ -50,7 +50,6 @@
 }
 .menu-bar .follow-logo{
     padding: 10px 30px;
-    border: 1px solid black;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
@@ -76,6 +75,7 @@
 }
 .banner-discription{
     width: 50%;
+    text-align: ;
 }
 .banner-discription h2{
     color: #0B0223;
@@ -97,6 +97,14 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.banner-info{
+    display: flex;
+    align-items: center;
+}
+.banner-info h6{
+    color: #534C64;
+    padding-left: 10px;
 }
 .btn1-banner{
     color: #FFF;
@@ -236,6 +244,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color:black;
     visibility: hidden;
 }
@@ -387,6 +396,7 @@
     border: 2px solid #e956a2 ;
     border-radius: 30px;
     color: #e956a2;
+    cursor: pointer;
 }
 
 .gamess img{
@@ -459,7 +469,7 @@ footer{
     font-size: 10px;
     font-style: normal;
     font-weight: 500;
-    padding-top: 10px;
+    padding-top: 30px;
     
 }
 .online-logo{
